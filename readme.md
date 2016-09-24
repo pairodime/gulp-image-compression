@@ -1,8 +1,10 @@
-# Gulp Starter
+# Image Compression Kit
 
-This is a starting point for using Gulp with SASS + Breakpoint + Susy + Livereload for Chrome Browser Extension. It also does some other cool features.
+This is a great tool for optimizing images ready for produciton.
 
-[TODO - list features]
+## Features
+- Tiny PNG API = https://tinypng.com/developers/subscription
+- Imagmin for generic PNG, JPEG, GIF processing
 
 ## Prequisites
 There are a few Software Packages you need to install before you can get started
@@ -12,13 +14,9 @@ There are a few Software Packages you need to install before you can get started
 ```
 $ npm install --global gulp-cli
 ```
-* Bower - global = https://bower.io/
-```
-$ npm install -g bower
-```
    
 ## Getting Started
-* Download this repo to your local machine -> use terminal to change directory to where your HTML files will be.
+* Download this repo to your local machine -> Place your RAW images in '/images/raw/'
 
 Then run these commands:
 
@@ -26,16 +24,21 @@ Then run these commands:
 $ npm install
 ```
 
-```
-$ bower install
-```
 This will add all the contributed modules for task runners.
 
-From there - Let's build the internet!
+From there - Let's compress images!
 
-## Post Installation
-Run this command to always look for changes and process your gulp processes.
+# Post Installation
+You have the choice of using Tiny PNG API (which is FREE for the first 500/mo) or generic image file reduction using Imagemin
 
+## TinyPNG 
 ```
-$ gulp watch
+$ gulp tinypng
+```
+
+or
+
+## Imagemin
+```
+$ gulp images
 ```
