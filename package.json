@@ -1,0 +1,18 @@
+{
+  "name": "image-size-reducer",
+  "version": "1.0.1",
+  "description": "Image File Size Reducer.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0",
+    "imagemin-pngquant": "^4.2.0"
+  },
+  "author": "PAIRODIME",
+  "license": "MIT"
+}
