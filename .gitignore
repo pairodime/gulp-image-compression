@@ -2,8 +2,6 @@
 .DS_Store
 
 # Images
-images/raw/*
-images/web-ready/*
 .gulp/tinypng
 
 # Created by https://www.gitignore.io/api/node
